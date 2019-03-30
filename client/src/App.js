@@ -29,9 +29,10 @@ export default class App extends Component {
           path="/movies/:id" 
           render={props => (
             <Movie 
-              match={props.match}
-              history={props.history}
-              location={props.location}
+              // match={props.match}
+              // history={props.history}
+              // location={props.location}
+              {...props}
               addToSavedList={this.addToSavedList}
             />
           )}
