@@ -70,3 +70,8 @@ body {
   padding: 5px 10px;
   background-color: lightskyblue;
 }
+
+.navlink-saved-movie {
+  text-decoration: none;
+  color: lightseagreen;
+}
